@@ -1,0 +1,5 @@
+rootProject.name = 'Westeros'
+
+
+include 'westeros-movies-client'
+include 'westeros-updater'
