@@ -41,6 +41,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/westeros-data" />
+            <option value="$PROJECT_DIR$/westeros-diagnostics-tools" />
             <option value="$PROJECT_DIR$/westeros-movies-client" />
             <option value="$PROJECT_DIR$/westeros-updater" />
           </set>

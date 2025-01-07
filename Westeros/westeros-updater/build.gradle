@@ -20,6 +20,7 @@ repositories {
 dependencies {
     implementation project(':westeros-movies-client')
     implementation project(':westeros-data')
+    implementation project(':westeros-diagnostics-tools')
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
