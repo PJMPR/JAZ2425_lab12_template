@@ -21,6 +21,8 @@ public class DiskSpaceDiagnostics implements IDiagnose {
     @Override
     public Diagnostics run() {
 
+
+
         File disk = new File("C:\\");
         var resultBuilder = Diagnostics.builder()
                 .name(getName())
