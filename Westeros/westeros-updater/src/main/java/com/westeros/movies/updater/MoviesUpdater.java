@@ -41,8 +41,7 @@ public class MoviesUpdater implements IUpdateMovies{
         this.dictionariesClient = dictionariesClient;
         this.entityMapper = entityMapper;
     }
-
-    @Async
+    
     @Override
     public void updateByDateRange(LocalDate from, LocalDate to) {
 
